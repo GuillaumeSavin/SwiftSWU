@@ -14,6 +14,14 @@
 		439F88132608802E00BBB9C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439F88112608802E00BBB9C6 /* LaunchScreen.storyboard */; };
 		439F881D260881E900BBB9C6 /* SWTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F881C260881E900BBB9C6 /* SWTableViewController.swift */; };
 		439F88212608854900BBB9C6 /* SWCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F88202608854900BBB9C6 /* SWCell.swift */; };
+		439F882426088B1500BBB9C6 /* SWMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F882326088B1500BBB9C6 /* SWMovie.swift */; };
+		439F882826088DE500BBB9C6 /* phantomeMenace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439F882726088DE500BBB9C6 /* phantomeMenace.jpg */; };
+		439F882B2608933700BBB9C6 /* attackOfTheClones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439F882A2608933700BBB9C6 /* attackOfTheClones.jpg */; };
+		439F882E2608943500BBB9C6 /* revengeOfTheSith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439F882D2608943500BBB9C6 /* revengeOfTheSith.jpg */; };
+		439F88312608967A00BBB9C6 /* aNewHope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439F88302608967A00BBB9C6 /* aNewHope.jpg */; };
+		439F88342608976000BBB9C6 /* theEmpireStrikeBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 439F88332608976000BBB9C6 /* theEmpireStrikeBack.png */; };
+		439F8837260897D200BBB9C6 /* theReturnOfTheJedi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439F8836260897D200BBB9C6 /* theReturnOfTheJedi.jpg */; };
+		439F883A2608A34F00BBB9C6 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F88392608A34F00BBB9C6 /* FilmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		439F88142608802E00BBB9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439F881C260881E900BBB9C6 /* SWTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTableViewController.swift; sourceTree = "<group>"; };
 		439F88202608854900BBB9C6 /* SWCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCell.swift; sourceTree = "<group>"; };
+		439F882326088B1500BBB9C6 /* SWMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWMovie.swift; sourceTree = "<group>"; };
+		439F882726088DE500BBB9C6 /* phantomeMenace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = phantomeMenace.jpg; path = Assets.xcassets/phantomeMenace.jpg; sourceTree = "<group>"; };
+		439F882A2608933700BBB9C6 /* attackOfTheClones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = attackOfTheClones.jpg; path = Assets.xcassets/attackOfTheClones.jpg; sourceTree = "<group>"; };
+		439F882D2608943500BBB9C6 /* revengeOfTheSith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = revengeOfTheSith.jpg; path = Assets.xcassets/revengeOfTheSith.jpg; sourceTree = "<group>"; };
+		439F88302608967A00BBB9C6 /* aNewHope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aNewHope.jpg; path = Assets.xcassets/aNewHope.jpg; sourceTree = "<group>"; };
+		439F88332608976000BBB9C6 /* theEmpireStrikeBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = theEmpireStrikeBack.png; path = Assets.xcassets/theEmpireStrikeBack.png; sourceTree = "<group>"; };
+		439F8836260897D200BBB9C6 /* theReturnOfTheJedi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = theReturnOfTheJedi.jpg; path = Assets.xcassets/theReturnOfTheJedi.jpg; sourceTree = "<group>"; };
+		439F88392608A34F00BBB9C6 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +74,22 @@
 		439F88052608801900BBB9C6 /* SWU */ = {
 			isa = PBXGroup;
 			children = (
+				439F8836260897D200BBB9C6 /* theReturnOfTheJedi.jpg */,
 				439F88062608801900BBB9C6 /* AppDelegate.swift */,
 				439F88082608801900BBB9C6 /* SceneDelegate.swift */,
 				439F880C2608801900BBB9C6 /* Main.storyboard */,
 				439F880F2608802E00BBB9C6 /* Assets.xcassets */,
+				439F88332608976000BBB9C6 /* theEmpireStrikeBack.png */,
+				439F88302608967A00BBB9C6 /* aNewHope.jpg */,
+				439F882D2608943500BBB9C6 /* revengeOfTheSith.jpg */,
+				439F882A2608933700BBB9C6 /* attackOfTheClones.jpg */,
+				439F882726088DE500BBB9C6 /* phantomeMenace.jpg */,
 				439F88112608802E00BBB9C6 /* LaunchScreen.storyboard */,
 				439F88142608802E00BBB9C6 /* Info.plist */,
 				439F881C260881E900BBB9C6 /* SWTableViewController.swift */,
 				439F88202608854900BBB9C6 /* SWCell.swift */,
+				439F882326088B1500BBB9C6 /* SWMovie.swift */,
+				439F88392608A34F00BBB9C6 /* FilmViewController.swift */,
 			);
 			path = SWU;
 			sourceTree = "<group>";
@@ -127,8 +151,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439F88342608976000BBB9C6 /* theEmpireStrikeBack.png in Resources */,
+				439F882B2608933700BBB9C6 /* attackOfTheClones.jpg in Resources */,
 				439F88132608802E00BBB9C6 /* LaunchScreen.storyboard in Resources */,
 				439F88102608802E00BBB9C6 /* Assets.xcassets in Resources */,
+				439F882E2608943500BBB9C6 /* revengeOfTheSith.jpg in Resources */,
+				439F88312608967A00BBB9C6 /* aNewHope.jpg in Resources */,
+				439F8837260897D200BBB9C6 /* theReturnOfTheJedi.jpg in Resources */,
+				439F882826088DE500BBB9C6 /* phantomeMenace.jpg in Resources */,
 				439F880E2608801900BBB9C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +173,8 @@
 				439F88072608801900BBB9C6 /* AppDelegate.swift in Sources */,
 				439F88212608854900BBB9C6 /* SWCell.swift in Sources */,
 				439F881D260881E900BBB9C6 /* SWTableViewController.swift in Sources */,
+				439F882426088B1500BBB9C6 /* SWMovie.swift in Sources */,
+				439F883A2608A34F00BBB9C6 /* FilmViewController.swift in Sources */,
 				439F88092608801900BBB9C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

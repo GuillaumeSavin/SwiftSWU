@@ -8,10 +8,18 @@
 import UIKit
 
 class SWTableViewController: UITableViewController {
+    
+    var movies = [SWMovie]()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        movies.append(SWMovie(title: "La menace fantôme", epNumber: 1, year: 2000, director: "XXX", image: UIImage(named: "phantomeMenace")!))
+        movies.append(SWMovie(title: "L'Attaque des Clones", epNumber: 2, year: 2000, director: "XXX", image: UIImage(named: "attackOfTheClones")!))
+        movies.append(SWMovie(title: "La Revanche des Siths", epNumber: 3, year: 2000, director: "XXX", image: UIImage(named: "revengeOfTheSith")!))
+        movies.append(SWMovie(title: "Un nouvel espoir", epNumber: 4, year: 2000, director: "XXX", image: UIImage(named: "aNewHope")!))
+        movies.append(SWMovie(title: "L'Empire Contre-Attaque", epNumber: 5, year: 2000, director: "XXX", image: UIImage(named: "theEmpireStrikeBack")!))
+        movies.append(SWMovie(title: "Le Retour du Jedi", epNumber: 6, year: 2000, director: "XXX", image: UIImage(named: "theReturnOfTheJedi")!))
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -23,21 +31,51 @@ class SWTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 2
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return section == 0 ? 4 : 0
+        if section == 0 {
+            return movies.count
+        }
+        else {
+            return 1
+        }
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "SWTableCellType", for: indexPath)
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "SWTableCellType", for: indexPath) as? SWCell {
+            let film = movies[indexPath.row]
+            cell.title.text = film.title
+            cell.epNumber?.text = "\(film.epNumber)"
+            cell.poster?.image = film.image
+            cell.year.text = "\(film.year)"
+            
+            return cell
+        }
 
         // Configure the cell...
 
-        return cell
+        return UITableViewCell()
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section == 0 {
+            return "Main Saga"
+        }
+        else {
+            return "Other sagas"
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedFilm = movies[indexPath.row]
+        
+        if let viewController = storyboard?.instantiateViewController(identifier: "Film View Controller") as? FilmViewController {
+            viewController.film = selectedFilm
+            navigationController?.pushViewController(viewController, animated: true)
+        }
     }
     
 
