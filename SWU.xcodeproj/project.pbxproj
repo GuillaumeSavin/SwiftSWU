@@ -12,7 +12,8 @@
 		439F880E2608801900BBB9C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439F880C2608801900BBB9C6 /* Main.storyboard */; };
 		439F88102608802E00BBB9C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439F880F2608802E00BBB9C6 /* Assets.xcassets */; };
 		439F88132608802E00BBB9C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439F88112608802E00BBB9C6 /* LaunchScreen.storyboard */; };
-		439F881D260881E900BBB9C6 /* StarWarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F881C260881E900BBB9C6 /* StarWarsTableViewController.swift */; };
+		439F881D260881E900BBB9C6 /* SWTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F881C260881E900BBB9C6 /* SWTableViewController.swift */; };
+		439F88212608854900BBB9C6 /* SWCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F88202608854900BBB9C6 /* SWCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		439F880F2608802E00BBB9C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		439F88122608802E00BBB9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		439F88142608802E00BBB9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		439F881C260881E900BBB9C6 /* StarWarsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsTableViewController.swift; sourceTree = "<group>"; };
+		439F881C260881E900BBB9C6 /* SWTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTableViewController.swift; sourceTree = "<group>"; };
+		439F88202608854900BBB9C6 /* SWCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,8 @@
 				439F880F2608802E00BBB9C6 /* Assets.xcassets */,
 				439F88112608802E00BBB9C6 /* LaunchScreen.storyboard */,
 				439F88142608802E00BBB9C6 /* Info.plist */,
-				439F881C260881E900BBB9C6 /* StarWarsTableViewController.swift */,
+				439F881C260881E900BBB9C6 /* SWTableViewController.swift */,
+				439F88202608854900BBB9C6 /* SWCell.swift */,
 			);
 			path = SWU;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				439F88072608801900BBB9C6 /* AppDelegate.swift in Sources */,
-				439F881D260881E900BBB9C6 /* StarWarsTableViewController.swift in Sources */,
+				439F88212608854900BBB9C6 /* SWCell.swift in Sources */,
+				439F881D260881E900BBB9C6 /* SWTableViewController.swift in Sources */,
 				439F88092608801900BBB9C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

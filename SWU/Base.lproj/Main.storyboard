@@ -10,13 +10,13 @@
         <!--Star Wars Controller-->
         <scene sceneID="cJb-Jf-R61">
             <objects>
-                <tableViewController title="Star Wars Controller" id="BuH-ti-6A0" customClass="StarWarsTableViewController" customModule="SWU" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Star Wars Controller" id="BuH-ti-6A0" customClass="SWTableViewController" customModule="SWU" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="49f-Ox-jVU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StarWarsSubType" textLabel="F23-UI-aLC" detailTextLabel="Rha-e2-tRx" imageView="9AD-vZ-jRz" style="IBUITableViewCellStyleSubtitle" id="Rno-LM-Zi3">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SWTableCellType" textLabel="F23-UI-aLC" detailTextLabel="Rha-e2-tRx" imageView="9AD-vZ-jRz" style="IBUITableViewCellStyleSubtitle" id="Rno-LM-Zi3" customClass="SWCell" customModule="SWU" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rno-LM-Zi3" id="RCn-bm-hDT">
