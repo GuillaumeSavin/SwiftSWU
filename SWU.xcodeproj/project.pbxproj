@@ -15,13 +15,16 @@
 		439F881D260881E900BBB9C6 /* SWTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F881C260881E900BBB9C6 /* SWTableViewController.swift */; };
 		439F88212608854900BBB9C6 /* SWCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F88202608854900BBB9C6 /* SWCell.swift */; };
 		439F882426088B1500BBB9C6 /* SWMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F882326088B1500BBB9C6 /* SWMovie.swift */; };
-		439F882826088DE500BBB9C6 /* phantomeMenace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439F882726088DE500BBB9C6 /* phantomeMenace.jpg */; };
-		439F882B2608933700BBB9C6 /* attackOfTheClones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439F882A2608933700BBB9C6 /* attackOfTheClones.jpg */; };
-		439F882E2608943500BBB9C6 /* revengeOfTheSith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439F882D2608943500BBB9C6 /* revengeOfTheSith.jpg */; };
-		439F88312608967A00BBB9C6 /* aNewHope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439F88302608967A00BBB9C6 /* aNewHope.jpg */; };
-		439F88342608976000BBB9C6 /* theEmpireStrikeBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 439F88332608976000BBB9C6 /* theEmpireStrikeBack.png */; };
-		439F8837260897D200BBB9C6 /* theReturnOfTheJedi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439F8836260897D200BBB9C6 /* theReturnOfTheJedi.jpg */; };
 		439F883A2608A34F00BBB9C6 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F88392608A34F00BBB9C6 /* FilmViewController.swift */; };
+		A2FF770F26120E5C00C4BB64 /* SWMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FF770E26120E5C00C4BB64 /* SWMusic.swift */; };
+		A2FF7716261213BB00C4BB64 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FF7715261213BB00C4BB64 /* MusicViewController.swift */; };
+		A2FF772326123F3D00C4BB64 /* SWMusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FF772226123F3D00C4BB64 /* SWMusicTableViewController.swift */; };
+		A2FF772626123F6A00C4BB64 /* SWMusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FF772526123F6A00C4BB64 /* SWMusicCell.swift */; };
+		A2FF7741261250A900C4BB64 /* iarandommusic1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2FF773B26124F5B00C4BB64 /* iarandommusic1.mp3 */; };
+		A2FF7743261250AC00C4BB64 /* iarandommusic2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2FF773C26124F5B00C4BB64 /* iarandommusic2.mp3 */; };
+		A2FF7745261250AE00C4BB64 /* iarandommusic3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2FF773F26124F5C00C4BB64 /* iarandommusic3.mp3 */; };
+		A2FF7747261250B000C4BB64 /* iarandommusic4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2FF773E26124F5C00C4BB64 /* iarandommusic4.mp3 */; };
+		A2FF7749261250B300C4BB64 /* iarandommusic5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2FF773D26124F5B00C4BB64 /* iarandommusic5.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,13 +38,16 @@
 		439F881C260881E900BBB9C6 /* SWTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTableViewController.swift; sourceTree = "<group>"; };
 		439F88202608854900BBB9C6 /* SWCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCell.swift; sourceTree = "<group>"; };
 		439F882326088B1500BBB9C6 /* SWMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWMovie.swift; sourceTree = "<group>"; };
-		439F882726088DE500BBB9C6 /* phantomeMenace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = phantomeMenace.jpg; path = Assets.xcassets/phantomeMenace.jpg; sourceTree = "<group>"; };
-		439F882A2608933700BBB9C6 /* attackOfTheClones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = attackOfTheClones.jpg; path = Assets.xcassets/attackOfTheClones.jpg; sourceTree = "<group>"; };
-		439F882D2608943500BBB9C6 /* revengeOfTheSith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = revengeOfTheSith.jpg; path = Assets.xcassets/revengeOfTheSith.jpg; sourceTree = "<group>"; };
-		439F88302608967A00BBB9C6 /* aNewHope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aNewHope.jpg; path = Assets.xcassets/aNewHope.jpg; sourceTree = "<group>"; };
-		439F88332608976000BBB9C6 /* theEmpireStrikeBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = theEmpireStrikeBack.png; path = Assets.xcassets/theEmpireStrikeBack.png; sourceTree = "<group>"; };
-		439F8836260897D200BBB9C6 /* theReturnOfTheJedi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = theReturnOfTheJedi.jpg; path = Assets.xcassets/theReturnOfTheJedi.jpg; sourceTree = "<group>"; };
 		439F88392608A34F00BBB9C6 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		A2FF770E26120E5C00C4BB64 /* SWMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWMusic.swift; sourceTree = "<group>"; };
+		A2FF7715261213BB00C4BB64 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		A2FF772226123F3D00C4BB64 /* SWMusicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWMusicTableViewController.swift; sourceTree = "<group>"; };
+		A2FF772526123F6A00C4BB64 /* SWMusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWMusicCell.swift; sourceTree = "<group>"; };
+		A2FF773B26124F5B00C4BB64 /* iarandommusic1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iarandommusic1.mp3; sourceTree = "<group>"; };
+		A2FF773C26124F5B00C4BB64 /* iarandommusic2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iarandommusic2.mp3; sourceTree = "<group>"; };
+		A2FF773D26124F5B00C4BB64 /* iarandommusic5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iarandommusic5.mp3; sourceTree = "<group>"; };
+		A2FF773E26124F5C00C4BB64 /* iarandommusic4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iarandommusic4.mp3; sourceTree = "<group>"; };
+		A2FF773F26124F5C00C4BB64 /* iarandommusic3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iarandommusic3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,24 +80,35 @@
 		439F88052608801900BBB9C6 /* SWU */ = {
 			isa = PBXGroup;
 			children = (
-				439F8836260897D200BBB9C6 /* theReturnOfTheJedi.jpg */,
+				A2FF773A26124F5400C4BB64 /* Music */,
 				439F88062608801900BBB9C6 /* AppDelegate.swift */,
 				439F88082608801900BBB9C6 /* SceneDelegate.swift */,
 				439F880C2608801900BBB9C6 /* Main.storyboard */,
 				439F880F2608802E00BBB9C6 /* Assets.xcassets */,
-				439F88332608976000BBB9C6 /* theEmpireStrikeBack.png */,
-				439F88302608967A00BBB9C6 /* aNewHope.jpg */,
-				439F882D2608943500BBB9C6 /* revengeOfTheSith.jpg */,
-				439F882A2608933700BBB9C6 /* attackOfTheClones.jpg */,
-				439F882726088DE500BBB9C6 /* phantomeMenace.jpg */,
 				439F88112608802E00BBB9C6 /* LaunchScreen.storyboard */,
 				439F88142608802E00BBB9C6 /* Info.plist */,
 				439F881C260881E900BBB9C6 /* SWTableViewController.swift */,
 				439F88202608854900BBB9C6 /* SWCell.swift */,
 				439F882326088B1500BBB9C6 /* SWMovie.swift */,
 				439F88392608A34F00BBB9C6 /* FilmViewController.swift */,
+				A2FF770E26120E5C00C4BB64 /* SWMusic.swift */,
+				A2FF7715261213BB00C4BB64 /* MusicViewController.swift */,
+				A2FF772226123F3D00C4BB64 /* SWMusicTableViewController.swift */,
+				A2FF772526123F6A00C4BB64 /* SWMusicCell.swift */,
 			);
 			path = SWU;
+			sourceTree = "<group>";
+		};
+		A2FF773A26124F5400C4BB64 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A2FF773B26124F5B00C4BB64 /* iarandommusic1.mp3 */,
+				A2FF773C26124F5B00C4BB64 /* iarandommusic2.mp3 */,
+				A2FF773F26124F5C00C4BB64 /* iarandommusic3.mp3 */,
+				A2FF773E26124F5C00C4BB64 /* iarandommusic4.mp3 */,
+				A2FF773D26124F5B00C4BB64 /* iarandommusic5.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,15 +168,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				439F88342608976000BBB9C6 /* theEmpireStrikeBack.png in Resources */,
-				439F882B2608933700BBB9C6 /* attackOfTheClones.jpg in Resources */,
 				439F88132608802E00BBB9C6 /* LaunchScreen.storyboard in Resources */,
+				A2FF7749261250B300C4BB64 /* iarandommusic5.mp3 in Resources */,
+				A2FF7741261250A900C4BB64 /* iarandommusic1.mp3 in Resources */,
+				A2FF7743261250AC00C4BB64 /* iarandommusic2.mp3 in Resources */,
+				A2FF7745261250AE00C4BB64 /* iarandommusic3.mp3 in Resources */,
 				439F88102608802E00BBB9C6 /* Assets.xcassets in Resources */,
-				439F882E2608943500BBB9C6 /* revengeOfTheSith.jpg in Resources */,
-				439F88312608967A00BBB9C6 /* aNewHope.jpg in Resources */,
-				439F8837260897D200BBB9C6 /* theReturnOfTheJedi.jpg in Resources */,
-				439F882826088DE500BBB9C6 /* phantomeMenace.jpg in Resources */,
 				439F880E2608801900BBB9C6 /* Main.storyboard in Resources */,
+				A2FF7747261250B000C4BB64 /* iarandommusic4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,11 +186,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FF772326123F3D00C4BB64 /* SWMusicTableViewController.swift in Sources */,
 				439F88072608801900BBB9C6 /* AppDelegate.swift in Sources */,
 				439F88212608854900BBB9C6 /* SWCell.swift in Sources */,
 				439F881D260881E900BBB9C6 /* SWTableViewController.swift in Sources */,
 				439F882426088B1500BBB9C6 /* SWMovie.swift in Sources */,
+				A2FF772626123F6A00C4BB64 /* SWMusicCell.swift in Sources */,
+				A2FF7716261213BB00C4BB64 /* MusicViewController.swift in Sources */,
 				439F883A2608A34F00BBB9C6 /* FilmViewController.swift in Sources */,
+				A2FF770F26120E5C00C4BB64 /* SWMusic.swift in Sources */,
 				439F88092608801900BBB9C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

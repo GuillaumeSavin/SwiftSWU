@@ -87,7 +87,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CBt-3T-Ybd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1492.753623188406" y="3.3482142857142856"/>
+            <point key="canvasLocation" x="964" y="3"/>
         </scene>
         <!--Film View Controller-->
         <scene sceneID="HpB-r8-UEX">
@@ -127,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ib2-Vz-9zo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2234.7826086956525" y="2.6785714285714284"/>
+            <point key="canvasLocation" x="1770" y="3"/>
         </scene>
         <!--Movies-->
         <scene sceneID="NbQ-1l-aeS">
@@ -149,29 +149,71 @@
             <point key="canvasLocation" x="-49" y="3"/>
         </scene>
         <!--Star-->
-        <scene sceneID="MOZ-WR-pzu">
+        <scene sceneID="l5a-qr-PP5">
             <objects>
-                <viewController id="FN0-uD-Ahv" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1bn-hk-mBj">
+                <navigationController id="R2g-ar-Abh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Star" image="star" catalog="system" id="LMy-3s-u0X"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iRJ-vv-dCl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="aOJ-t1-P0G" kind="relationship" relationship="rootViewController" id="lD2-G6-ai8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ra4-zd-CIA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49" y="668"/>
+        </scene>
+        <!--Music View Controller-->
+        <scene sceneID="yN6-XJ-Rqu">
+            <objects>
+                <viewController storyboardIdentifier="Music View Controller" id="GVx-Lu-KTh" customClass="MusicViewController" customModule="SWU" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kmW-6I-fMu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Star Wars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKE-qN-RGc">
-                                <rect key="frame" x="105" y="418" width="205" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9Q-m3-N8h">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cb9-LO-Lly">
+                                <rect key="frame" x="199.5" y="466.5" width="15" height="22"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="playSong:" destination="GVx-Lu-KTh" eventType="touchUpInside" id="M1O-Tq-czO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDu-nK-odg">
+                                <rect key="frame" x="186" y="496.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Rq-Bf-k5S"/>
+                        <viewLayoutGuide key="safeArea" id="bPv-DA-AIL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cDu-nK-odg" firstAttribute="centerX" secondItem="kmW-6I-fMu" secondAttribute="centerX" id="0h9-Fm-lP6"/>
+                            <constraint firstItem="cb9-LO-Lly" firstAttribute="top" secondItem="U9Q-m3-N8h" secondAttribute="bottom" constant="8" id="5lu-tI-XYc"/>
+                            <constraint firstItem="cb9-LO-Lly" firstAttribute="centerX" secondItem="kmW-6I-fMu" secondAttribute="centerX" id="FqC-vH-eCf"/>
+                            <constraint firstItem="U9Q-m3-N8h" firstAttribute="centerY" secondItem="kmW-6I-fMu" secondAttribute="centerY" id="K0Q-aZ-6KK"/>
+                            <constraint firstItem="U9Q-m3-N8h" firstAttribute="centerX" secondItem="kmW-6I-fMu" secondAttribute="centerX" id="SL9-bZ-tpf"/>
+                            <constraint firstItem="cDu-nK-odg" firstAttribute="top" secondItem="cb9-LO-Lly" secondAttribute="bottom" constant="8" id="WAX-UG-ofE"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Star" image="star" catalog="system" selectedImage="star" id="s3K-ue-njk"/>
+                    <navigationItem key="navigationItem" id="rum-KV-nZb"/>
+                    <connections>
+                        <outlet property="lengthSong" destination="cDu-nK-odg" id="Mgr-dj-pH2"/>
+                        <outlet property="playBtn" destination="cb9-LO-Lly" id="BY6-qB-zls"/>
+                        <outlet property="titleSong" destination="U9Q-m3-N8h" id="NLX-N1-TVK"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zQH-vF-dRM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4j-6u-qdQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-49" y="733"/>
+            <point key="canvasLocation" x="1769.5652173913045" y="667.63392857142856"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="P7l-df-j7S">
@@ -184,15 +226,69 @@
                     </tabBar>
                     <connections>
                         <segue destination="DZW-XH-QJn" kind="relationship" relationship="viewControllers" id="za6-77-hz3"/>
-                        <segue destination="FN0-uD-Ahv" kind="relationship" relationship="viewControllers" id="OD8-Wg-1dQ"/>
+                        <segue destination="R2g-ar-Abh" kind="relationship" relationship="viewControllers" id="Sj1-1K-6mY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BRv-sY-DCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1420" y="348"/>
         </scene>
+        <!--Music Table Controller-->
+        <scene sceneID="u3u-y8-vVa">
+            <objects>
+                <tableViewController title="Music Table Controller" id="aOJ-t1-P0G" customClass="SWMusicTableViewController" customModule="SWU" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="LNE-Z0-Zan">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SWMusicTableCellType" id="RmD-LZ-vD4" customClass="SWMusicCell" customModule="SWU" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RmD-LZ-vD4" id="xWK-jg-ufA">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiA-O0-KV0">
+                                            <rect key="frame" x="183" y="0.0" width="48.5" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Length" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ai-qJ-6h0">
+                                            <rect key="frame" x="169" y="70" width="76" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="8Ai-qJ-6h0" secondAttribute="bottom" id="9AW-FA-BY4"/>
+                                        <constraint firstItem="tiA-O0-KV0" firstAttribute="top" secondItem="xWK-jg-ufA" secondAttribute="top" id="IBA-oK-xuD"/>
+                                        <constraint firstItem="tiA-O0-KV0" firstAttribute="centerX" secondItem="xWK-jg-ufA" secondAttribute="centerX" id="RxR-iS-LEN"/>
+                                        <constraint firstItem="8Ai-qJ-6h0" firstAttribute="centerX" secondItem="xWK-jg-ufA" secondAttribute="centerX" id="Ynm-Dw-iCx"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="length" destination="8Ai-qJ-6h0" id="2WE-y4-F94"/>
+                                    <outlet property="title" destination="tiA-O0-KV0" id="255-QH-W4v"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="aOJ-t1-P0G" id="yXr-YI-Gqv"/>
+                            <outlet property="delegate" destination="aOJ-t1-P0G" id="gCb-mc-B8v"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="x20-kQ-JMU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jh5-09-YTi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="964" y="668"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="star" catalog="system" width="128" height="116"/>
         <image name="timeline.selection" catalog="system" width="128" height="64"/>
         <systemColor name="systemBackgroundColor">
